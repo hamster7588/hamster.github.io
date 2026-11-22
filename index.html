@@ -3,10 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Moja Strona</title>
+    
+    <!-- Podpięcie zewnętrznego arkusza stylów -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Cześć</h1>
-    <p>Moja Pierwsza Strona</p>
+
+    <header>
+        <a href="#" class="logo">MOJAPROJEKT</a>
+        <nav>
+            <ul>
+                <li><a href="#funkcje">Funkcje</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Witaj na stronie</h1>
+        <p>Krótki opis Twojego projektu lub serwera.</p>
+        <div>
+            <a href="#funkcje" class="btn btn-primary">Zobacz więcej</a>
+            <a href="#kontakt" class="btn btn-outline">Kontakt</a>
+        </div>
+    </section>
+
+    <main id="funkcje" class="container">
+        <h2 class="section-title">Co oferujemy</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Karta 1</h3>
+                <p>Przykładowa treść pierwszej karty w siatce.</p>
+            </div>
+            <div class="card">
+                <h3>Karta 2</h3>
+                <p>Przykładowa treść drugiej karty w siatce.</p>
+            </div>
+            <div class="card">
+                <h3>Karta 3</h3>
+                <p>Przykładowa treść trzeciej karty w siatce.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer id="kontakt">
+        <p>&copy; 2026 Twój Projekt. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+
 </body>
 </html>
