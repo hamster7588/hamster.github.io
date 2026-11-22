@@ -4,7 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moja Strona</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #050507;
+            background-image: radial-gradient(#1a1d2e 1px, transparent 1px);
+            background-size: 24px 24px;
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .box {
+            background: #0d0f14;
+            border: 1px solid #00f0ff;
+            box-shadow: 0 0 25px rgba(0, 240, 255, 0.2);
+            border-radius: 16px;
+            padding: 45px 35px;
+            max-width: 480px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 12px;
+            color: #00f0ff;
+            text-shadow: 0 0 12px rgba(0, 240, 255, 0.5);
+            letter-spacing: 1px;
+        }
+
+        p {
+            color: #a0a8c0;
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .btn {
+            display: block;
+            padding: 14px;
+            background: #00f0ff;
+            color: #050507;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.25s;
+        }
+
+        .btn:hover {
+            background: #5ceeff;
+            box-shadow: 0 0 18px rgba(0, 240, 255, 0.6);
+            transform: scale(1.02);
+        }
+
+        .btn.second {
+            background: transparent;
+            color: #ffffff;
+            border: 1px solid #2b3044;
+        }
+
+        .btn.second:hover {
+            border-color: #00f0ff;
+            color: #00f0ff;
+            box-shadow: none;
+        }
+    </style>
 </head>
 <body>
 
